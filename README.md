@@ -24,20 +24,20 @@ In order to use a custom dataset (from .xml or .json format files), you may use 
 
 - To create dataset from .xml files, run the following command:
   
-  python xml_parser.py --out_file path_to_output_file.txt \
-                       --in_dir  path_to_xml_files
+  ``` python xml_parser.py --out_file path_to_output_file.txt \
+                       --in_dir  path_to_xml_files ```
 
 - To create dataset from .json files, run the following command:
   
-  python xml_parser.py --out_file path_to_output_file.txt \
-                       --in_dir  path_to_json_files
+  ``` python xml_parser.py --out_file path_to_output_file.txt \
+                       --in_dir  path_to_json_files ```
                        
 - To create datasets from both file types, run the following command:
   
-  python create_raw_datasets.py --json_out_file path_to_json_output_file.txt \
+  ``` python create_raw_datasets.py --json_out_file path_to_json_output_file.txt \
                                 --json_in_dir  path_to_json_files \
                                 --xml_out_file path_to_xml_file.txt \
-                                --xml_in_dir  path_to_xml_files
+                                --xml_in_dir  path_to_xml_files ```
                  
 - The source .json files used for this project can be found here:
 - the source .xml files used for this project can be found here:
@@ -51,17 +51,17 @@ relexicalizing the corpus with new entities, can be found here.
 #### 2.1) Generator
 Here is an example of how to pretrain the generator.
 
-  python generator_pretraining.py --
+  ``` python generator_pretraining.py -- ```
   
 
 #### 2.2) Discriminator
 Here is an example of how to pretrain the discriminator.
 
-  python discriminator_pretraining.py --
+  ``` python discriminator_pretraining.py -- ```
   
 ### 3) Adverserial training
 Here is an example of how to launch the adverserial training script.
-  python adverserial_training.py --
+  ``` python adverserial_training.py -- ```
   
 ### 4) Generate predictions
 
@@ -69,7 +69,7 @@ You can also load in pre-trained weights for the generator, and make predictions
 The test set is constructed using the same scripts as the training set, found under data_utils directory.
 
 Here is an example of how to generate verbalizations on a test set, and save the reference and hypothesis files for automatic evaluation:
-  python generate_verbalizations.py --
+  ``` python generate_verbalizations.py -- ```
   
   
 
