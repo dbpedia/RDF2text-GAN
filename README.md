@@ -1,4 +1,4 @@
-# GSoC-2020 : Neural RDF-to-Text verbalizer using Generative Adversarial Networks
+# Neural RDF-to-Text verbalizer using Generative Adversarial Networks
 
 ## Repository made ror Google summer of code 2020.
 
