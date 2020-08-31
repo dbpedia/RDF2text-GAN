@@ -37,7 +37,7 @@ In order to use a custom dataset (from .xml or .json format files), you may use 
 
 *The augmented raw json data, which was created by delexicalizing the enriched WebNLG corpus then relexicalizing the corpus with new entities, can be found here.*
 
-*The relexicalization script can be found here*
+*The relexicalization script can be found here[a_link](https://github.com/ThiagoCF05/webnlg/blob/synthetic/synthetic.py)*
 
 ### 2) Pre-training
 
