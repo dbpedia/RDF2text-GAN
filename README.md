@@ -1,5 +1,6 @@
-# GSoC-2020
-## RDF - to - text generator, using a transformer based GAN. For Google summer of code 2020.
+# GSoC-2020 : Neural RDF-to-Text verbalizer using Generative Adversarial Networks
+
+## Repository made ror Google summer of code 2020.
 
 ### This folder contains the final code of the Google Summer of Code program.
 
