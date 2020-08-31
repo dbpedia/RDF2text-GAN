@@ -24,8 +24,8 @@ In order to use a custom dataset (from .xml or .json format files), you may use 
 
 - To create dataset from .xml files, run the following command:
   
-  ``` python xml_parser.py --out_file path_to_output_file.txt \
-                       --in_dir  path_to_xml_files ```
+  ``` python xml_parser.py --out_file path_to_output_file.txt
+                           --in_dir  path_to_xml_files ```
 
 - To create dataset from .json files, run the following command:
   
