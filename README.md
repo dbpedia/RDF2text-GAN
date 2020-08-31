@@ -11,6 +11,7 @@ This repository contains the final code of the Google Summer of Code program.
 - Links to all previous blog posts
 - What is left to be done
 
+### Summary of project
 The project concerns developing an end-to-end system that takes RDF (Resource Description Framework) triples as input, and generates an adequate verbalization therefrom.
 The approach taken is to setup an adversarial training workflow, where two networks (transformers chosen as final model) are trained together.
 The Generator is trained to generate text from given triples, whereas the discriminator is trained to distinguish between real triple text pairs, and fake (generated ones)
