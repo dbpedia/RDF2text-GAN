@@ -8,7 +8,7 @@ The project concerns developing an end-to-end system that takes RDF (Resource De
 The approach taken is to setup an adversarial training workflow, where two networks (transformers chosen as final model) are trained together.
 The Generator is trained to generate text from given triples, whereas the discriminator is trained to distinguish between real triple text pairs, and fake (generated ones)
 
-In order to reproduce the experiments, you will need to install the requirements.txt. The processed data files (for both .json and .xml format corpus) have been provided under the transformers/data directory. To generate custom data files, you may use the xml & json parser scripts, under the data_utils directory.
+In order to reproduce the experiments, you will need to install the *requirements.txt* file. The processed data files (for both .json and .xml format corpus) have been provided under the transformers/data directory. To generate custom data files, you may use the xml & json parser scripts, under the data_utils directory.
 
 **In order to recreate the final results, you will need to download the model weights for the discriminator and the generator, here:**
 
@@ -32,12 +32,10 @@ In order to use a custom dataset (from .xml or .json format files), you may use 
 #### 1.3) To create datasets from both file types, run the following command:
  - ``` python create_raw_datasets.py --json_out_file path_to_json_output_file.txt --json_in_dir  path_to_json_files --xml_out_file path_to_xml_file.txt --xml_in_dir  path_to_xml_files ```
                  
-- **The source .json files used for this project can be found here**
-- **The source .xml files used for this project can be found here**
-
-- **The augmented raw json data, which was created by delexicalizing the enriched WebNLG corpus then relexicalizing the corpus with new entities, can be found here.**
-
-- **The relexicalization script can be found here **
+*The source .json files used for this project can be found here*
+*The source .xml files used for this project can be found here*
+*The augmented raw json data, which was created by delexicalizing the enriched WebNLG corpus then relexicalizing the corpus with new entities, can be found here.*
+*The relexicalization script can be found here *
 
 ### 2) Pre-training
 
