@@ -1,5 +1,5 @@
 # GSoC-2020
-RDF - to - text generator, using GANs and reinforcement learning. For Google summer of code 2020.
+## RDF - to - text generator, using GANs and reinforcement learning. For Google summer of code 2020.
 
 This folder contains the final code of the Google Summer of Code program.
 
@@ -16,7 +16,7 @@ Generator weights:
 Discriminator weights: 
 
 
-# 1) Preprocessing files
+### 1) Preprocessing files
 
 It is worth noting that the folder data already contains all the files processed.
 
@@ -46,24 +46,24 @@ The augmented raw json data, which was created by delexicalizing the enriched We
 relexicalizing the corpus with new entities, can be found here.
 The relexicalization script can be found here
 
-# 2) Pre-training
+### 2) Pre-training
 
-2.1) Generator
+#### 2.1) Generator
 Here is an example of how to pretrain the generator.
 
   python generator_pretraining.py --
   
 
-2.2) Discriminator
+#### 2.2) Discriminator
 Here is an example of how to pretrain the discriminator.
 
   python discriminator_pretraining.py --
   
-# 3) Adverserial training
+### 3) Adverserial training
 Here is an example of how to launch the adverserial training script.
   python adverserial_training.py --
   
-# 4) Generate predictions
+### 4) Generate predictions
 
 You can also load in pre-trained weights for the generator, and make predictions on a test set.
 The test set is constructed using the same scripts as the training set, found under data_utils directory.
