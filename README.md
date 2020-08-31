@@ -31,13 +31,12 @@ In order to use a custom dataset (from .xml or .json format files), you may use 
 #### 1.3) To create datasets from both file types, run the following command:
  - ``` python create_raw_datasets.py --json_out_file path_to_json_output_file.txt --json_in_dir  path_to_json_files --xml_out_file path_to_xml_file.txt --xml_in_dir  path_to_xml_files ```
                  
-*The source .json files used for this project can be found here*
 
-*The source .xml files used for this project can be found here*
+*The source .xml files used for this project can be found [here](https://github.com/ThiagoCF05/webnlg/tree/master/data/v1.5/en/train)*
 
-*The augmented raw json data, which was created by delexicalizing the enriched WebNLG corpus then relexicalizing the corpus with new entities, can be found here.*
+*The augmented raw json data, which was created by delexicalizing the enriched WebNLG corpus then relexicalizing the corpus with new entities, can be found [here](https://drive.google.com/drive/folders/1Q6SGvJRjZP_97o_jBkirUNpe9qmulx1N?usp=sharing).*
 
-*The relexicalization script can be found here[a_link](https://github.com/ThiagoCF05/webnlg/blob/synthetic/synthetic.py)*
+*The relexicalization script can be found [here](https://github.com/ThiagoCF05/webnlg/blob/synthetic/synthetic.py)*
 
 ### 2) Pre-training
 
