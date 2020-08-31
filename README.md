@@ -23,19 +23,21 @@ It is worth noting that the folder data already contains all the files processed
 In order to use a custom dataset (from .xml or .json format files), you may use the scripts from the data_utils directory
 
 #### 1.1) To create dataset from .xml files, run the following command:
- - ```python xml_parser.py --out_file path_to_output_file.txt --in_dir path_to_xml_files´´´
-                           
+ - ```python xml_parser.py --out_file path_to_output_file.txt --in_dir path_to_xml_files ```
 
 #### 1.2) To create dataset from .json files, run the following command:
-- ``` python xml_parser.py --out_file path_to_output_file.txt --in_dir  path_to_json_files ´´´ 
+- ``` python xml_parser.py --out_file path_to_output_file.txt --in_dir  path_to_json_files ``` 
                        
 #### 1.3) To create datasets from both file types, run the following command:
  - ``` python create_raw_datasets.py --json_out_file path_to_json_output_file.txt --json_in_dir  path_to_json_files --xml_out_file path_to_xml_file.txt --xml_in_dir  path_to_xml_files ```
                  
 *The source .json files used for this project can be found here*
+
 *The source .xml files used for this project can be found here*
+
 *The augmented raw json data, which was created by delexicalizing the enriched WebNLG corpus then relexicalizing the corpus with new entities, can be found here.*
-*The relexicalization script can be found here *
+
+*The relexicalization script can be found here*
 
 ### 2) Pre-training
 
