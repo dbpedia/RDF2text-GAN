@@ -1,5 +1,5 @@
 # GSoC-2020
-## RDF - to - text generator, using GANs and reinforcement learning. For Google summer of code 2020.
+## RDF - to - text generator, using a transformer based GAN. For Google summer of code 2020.
 
 This folder contains the final code of the Google Summer of Code program.
 
