@@ -1,10 +1,11 @@
 # GSoC-2020
 ## RDF - to - text generator, using a transformer based GAN. For Google summer of code 2020.
 
-This folder contains the final code of the Google Summer of Code program.
+### This folder contains the final code of the Google Summer of Code program.
+
+***The final report for the project, documenting overall contributions, and lessons learnt, can be found [here](https://medium.com/@niloypurkait/gsoc-the-final-frontier-5cf4d167ae19)***
 
 The project concerns developing an end-to-end system that takes RDF (Resource Description Framework) triples as input, and generates an adequate verbalization therefrom.
-
 The approach taken is to setup an adversarial training workflow, where two networks (transformers chosen as final model) are trained together.
 The Generator is trained to generate text from given triples, whereas the discriminator is trained to distinguish between real triple text pairs, and fake (generated ones)
 
