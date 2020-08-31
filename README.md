@@ -10,10 +10,8 @@ The Generator is trained to generate text from given triples, whereas the discri
 
 In order to reproduce the experiments, you will need to install the *requirements.txt* file. The processed data files (for both .json and .xml format corpus) have been provided under the transformers/data directory. To generate custom data files, you may use the xml & json parser scripts, under the data_utils directory.
 
-**In order to recreate the final results, you will need to download the model weights for the discriminator and the generator, here:**
-
-- Generator weights:
-- Discriminator weights: 
+**In order to recreate the final results, you will need to download the model weights for the discriminator and the generator, made available [here](https://drive.google.com/drive/folders/1BL3bMgfbSbYABHZuQpvDxi-lNwsnmXQI?usp=sharing):**
+ 
 
 
 ### 1) Preprocessing files
