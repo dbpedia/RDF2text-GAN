@@ -4,7 +4,13 @@
 
 ### This folder contains the final code of the Google Summer of Code program.
 
-***The final report for the project, documenting overall contributions, and lessons learnt, can be found [here](https://medium.com/@niloypurkait/gsoc-the-final-frontier-5cf4d167ae19)***
+***The final report for the project, can be found [here](https://medium.com/@niloypurkait/gsoc-the-final-frontier-5cf4d167ae19)***
+#### This report includes:
+- Lessons learnt during the program
+- Documenting overall contributions
+- Links to commits made
+- Links to all previous blog posts
+- What is left to be done
 
 The project concerns developing an end-to-end system that takes RDF (Resource Description Framework) triples as input, and generates an adequate verbalization therefrom.
 The approach taken is to setup an adversarial training workflow, where two networks (transformers chosen as final model) are trained together.
