@@ -10,10 +10,10 @@ The Generator is trained to generate text from given triples, whereas the discri
 
 In order to reproduce the experiments, you will need to install the requirements.txt. The processed data files (for both .json and .xml format corpus) have been provided under the transformers/data directory. To generate custom data files, you may use the xml & json parser scripts, under the data_utils directory.
 
-In order to recreate the final results, you will need to download the model weights for the discriminator and the generator,here:
+**In order to recreate the final results, you will need to download the model weights for the discriminator and the generator, here:**
 
-Generator weights:
-Discriminator weights: 
+- Generator weights:
+- Discriminator weights: 
 
 
 ### 1) Preprocessing files
@@ -39,12 +39,12 @@ In order to use a custom dataset (from .xml or .json format files), you may use 
                                 --xml_out_file path_to_xml_file.txt \
                                 --xml_in_dir  path_to_xml_files
                  
-The source .json files used for this project can be found here:
-the source .xml files used for this project can be found here:
+- The source .json files used for this project can be found here:
+- the source .xml files used for this project can be found here:
 
-The augmented raw json data, which was created by delexicalizing the enriched WebNLG corpus then
+**The augmented raw json data, which was created by delexicalizing the enriched WebNLG corpus then
 relexicalizing the corpus with new entities, can be found here.
-The relexicalization script can be found here
+- The relexicalization script can be found here **
 
 ### 2) Pre-training
 
