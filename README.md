@@ -71,5 +71,5 @@ Here is an example of how to generate verbalizations on a test set, and save the
 
 -  ``` python generate_verbalizations.py --test_path path_to_test_data.txt --vocab_filename path_to_subword_tokenizer --checkpoint_path path_to_checkpoints_dir --out_reference path_to_reference_output.txt --out_hypothesis path_to_hypothesis_output.txt --num_layers 6 --dmodel 512 --dff 256 --num_heads 16 --dropout_rate 0.2 ```
   
-  
+To evaluate the generated predictions, you may use [this](https://github.com/WebNLG/GenerationEval) repository. After installing all dependencies, you can run the program with the reference and hypothesis files, which are created by running the generate_verbalizations.py script
 
