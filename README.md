@@ -41,17 +41,18 @@ In order to use a custom dataset (from .xml or .json format files), you may use 
 #### 2.1) Generator
 Here is an example of how to pretrain the generator.
 
-  ``` python generator_pretraining.py --file_path path_to_data_file.txt --vocab_filename path_to_subword_tokenizer --checkpoint_path path_to_checkpoints_dir --num_layers 6 --dmodel 512 --dff 256 --num_heads 16 --dropout_rate 0.2 --EPOCHS 10 ```
+-  ``` python generator_pretraining.py --file_path path_to_data_file.txt --vocab_filename path_to_subword_tokenizer --checkpoint_path path_to_checkpoints_dir --num_layers 6 --dmodel 512 --dff 256 --num_heads 16 --dropout_rate 0.2 --EPOCHS 10 ```
   
 
 #### 2.2) Discriminator
 Here is an example of how to pretrain the discriminator.
 
-  ``` python discriminator_pretraining.py --file_path path_to_data_file.txt --vocab_filename path_to_subword_tokenizer --embed_dim 32 --num_heads 2 --ff_dim 32  ```
+-  ``` python discriminator_pretraining.py --file_path path_to_data_file.txt --vocab_filename path_to_subword_tokenizer --embed_dim 32 --num_heads 2 --ff_dim 32  ```
   
 ### 3) Adverserial training
 Here is an example of how to launch the adverserial training script.
-  ``` python adverserial_training.py --file_path path_to_data_file.txt --vocab_filename path_to_subword_tokenizer --gen_checkpoint_path path_to_generator_checkpoints_dir disc_checkpoint_path path_to_disc_weights --num_layers 6 --dmodel 512 --dff 256 --num_heads 16 --dropout_rate 0.2 --EPOCHS 10 --batch_size 16```
+
+-  ``` python adverserial_training.py --file_path path_to_data_file.txt --vocab_filename path_to_subword_tokenizer --gen_checkpoint_path path_to_generator_checkpoints_dir disc_checkpoint_path path_to_disc_weights --num_layers 6 --dmodel 512 --dff 256 --num_heads 16 --dropout_rate 0.2 --EPOCHS 10 --batch_size 16```
   
 ### 4) Generate predictions
 
@@ -59,7 +60,8 @@ You can also load in pre-trained weights for the generator, and make predictions
 The test set is constructed using the same scripts as the training set, found under data_utils directory.
 
 Here is an example of how to generate verbalizations on a test set, and save the reference and hypothesis files for automatic evaluation:
-  ``` python generate_verbalizations.py --test_path path_to_test_data.txt --vocab_filename path_to_subword_tokenizer --checkpoint_path path_to_checkpoints_dir --out_reference path_to_reference_output.txt --out_hypothesis path_to_hypothesis_output.txt --num_layers 6 --dmodel 512 --dff 256 --num_heads 16 --dropout_rate 0.2 ```
+
+-  ``` python generate_verbalizations.py --test_path path_to_test_data.txt --vocab_filename path_to_subword_tokenizer --checkpoint_path path_to_checkpoints_dir --out_reference path_to_reference_output.txt --out_hypothesis path_to_hypothesis_output.txt --num_layers 6 --dmodel 512 --dff 256 --num_heads 16 --dropout_rate 0.2 ```
   
   
 
