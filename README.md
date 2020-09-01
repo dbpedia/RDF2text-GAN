@@ -1,6 +1,6 @@
 # Neural RDF-to-Text verbalizer using Generative Adversarial Networks
 
-## Repository made ror Google summer of code 2020.
+## Repository made for Google summer of code 2020.
 This repository contains the final code of the Google Summer of Code program.
 
 ##  ***The final report for the project, can be found [here](https://medium.com/@niloypurkait/gsoc-the-final-frontier-5cf4d167ae19)***
