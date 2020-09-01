@@ -23,10 +23,6 @@ The processed data files (for both .json and .xml format corpus) have been provi
 
 To generate custom data files, you may use the xml & json parser scripts, under the data_utils directory.
 
-**In order to recreate the final results, you will need to download
-the model weights for the discriminator and the generator, made available [here](https://drive.google.com/drive/folders/1BL3bMgfbSbYABHZuQpvDxi-lNwsnmXQI?usp=sharing)**
- 
-
 
 ### 1) Preprocessing files
 
@@ -44,11 +40,15 @@ In order to use a custom dataset (from .xml or .json format files), you may use 
  - ``` python create_raw_datasets.py --json_out_file path_to_json_output_file.txt --json_in_dir  path_to_json_files --xml_out_file path_to_xml_file.txt --xml_in_dir  path_to_xml_files ```
                  
 #### 1.4) Link to data files 
-- *The source .xml files used for this project can be found [here](https://github.com/ThiagoCF05/webnlg/tree/master/data/v1.5/en/train)*
+> *The **source .xml files** from the WebNLG dataset (used for this project) can be found [here](https://github.com/ThiagoCF05/webnlg/tree/master/data/v1.5/en/train)*
 
-- *The augmented raw json data, which was created by delexicalizing the enriched WebNLG corpus then relexicalizing the corpus with new entities, can be found [here](https://drive.google.com/drive/folders/1Q6SGvJRjZP_97o_jBkirUNpe9qmulx1N?usp=sharing).*
+> *The **augmented raw json data**, which was created by delexicalizing the enriched WebNLG corpus then relexicalizing the corpus with new entities, can be found [here](https://drive.google.com/drive/folders/1Q6SGvJRjZP_97o_jBkirUNpe9qmulx1N?usp=sharing).*
 
-- *The relexicalization script can be found [here](https://github.com/ThiagoCF05/webnlg/blob/synthetic/synthetic.py)*
+> *The **relexicalization script** can be found [here](https://github.com/ThiagoCF05/webnlg/blob/synthetic/synthetic.py)*
+
+> *In order to recreate the final results, you will need to download
+the **model weights** for the discriminator and the generator, made available [here](https://drive.google.com/drive/folders/1BL3bMgfbSbYABHZuQpvDxi-lNwsnmXQI?usp=sharing)**
+ 
 
 ### 2) Pre-training
 
