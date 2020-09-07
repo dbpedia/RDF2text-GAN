@@ -1,0 +1,7 @@
+# Results obtained on test set with final transformer model
+
+
+ BLEU    BLEU NLTK     chrF++    TER
+------  -----------  --------  -------- 
+ 27.39      0.27       0.46      0.69
+
