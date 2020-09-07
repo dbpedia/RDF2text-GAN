@@ -1,7 +1,18 @@
 # Results obtained on test set with final transformer model
 
-
  BLEU    BLEU NLTK     chrF++    TER
 ------  -----------  --------  -------- 
  27.39      0.27       0.46      0.69
+ 
+ 
 
+ # Transformer model params used to obtain results:
+ 
+ - num_layers =6 
+ - dmodel= 512
+ - dff = 256
+ - num_heads = 16
+ - dropout_rate = 0.2
+ - EPOCHS = 20
+
+# Results obtained using evaluation scripts at :  https://github.com/WebNLG/GenerationEval
