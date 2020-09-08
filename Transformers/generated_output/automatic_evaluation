@@ -15,4 +15,4 @@
  - dropout_rate = 0.2
  - EPOCHS = 20
 
-# Results obtained using evaluation scripts at :  https://github.com/WebNLG/GenerationEval
+# Evaluation scores obtained using evaluation scripts at :  https://github.com/WebNLG/GenerationEval
