@@ -83,5 +83,12 @@ Here is an example of how to generate verbalizations on a test set, and save the
 ### 5) Evaluate predictions
 To evaluate the generated predictions, you may use [this](https://github.com/WebNLG/GenerationEval) repository. After installing all dependencies, you can run the program with the reference and hypothesis files, which are created by running the generate_verbalizations.py script
 
+#### Evaluation Results:
+
+>                       **Score**       |    **BLEU    BLEU NLTK   chrF++    TER**
+>                                             ------  -----------  -------  -----
+>                       **LSTM**        |     10.76      0.11       0.16     1.15
+>                       **Transformer** |     27.39      0.27       0.46     0.69
+
 ### 6) Older repository with deprecated models
 Earlier experiments, conducted with Graph attention networks and LSTM's can be found in the [previous repository of this project](https://github.com/NiloyPurkait/GSoC-2020)
