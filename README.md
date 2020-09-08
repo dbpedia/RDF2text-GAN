@@ -85,10 +85,10 @@ To evaluate the generated predictions, you may use [this](https://github.com/Web
 
 #### Evaluation Results:
 
-                       **Score**       |    **BLEU    BLEU NLTK   chrF++    TER**
-                                             ------  -----------  -------  -----
-                       **LSTM**        |     10.76      0.11       0.16     1.15
-                       **Transformer** |     27.39      0.27       0.46     0.69
+>                       Score       |    **BLEU    BLEU NLTK   chrF++    TER**
+>                                           ------  -----------  -------  -----
+>                       LSTM        |     10.76      0.11       0.16     1.15
+>                       Transformer |     27.39      0.27       0.46     0.69
 
 ### 6) Older repository with deprecated models
 Earlier experiments, conducted with Graph attention networks and LSTM's can be found in the [previous repository of this project](https://github.com/NiloyPurkait/GSoC-2020)
