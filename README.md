@@ -48,9 +48,9 @@ In order to use a custom dataset (from .xml or .json format files), you may use 
 > - *The **relexicalization script** can be found [here](https://github.com/ThiagoCF05/webnlg/blob/synthetic/synthetic.py)*
 
 > - *In order to recreate the final results, you will need to download
-the **model weights** for the discriminator and the generator, made available [here](https://drive.google.com/drive/folders/1BL3bMgfbSbYABHZuQpvDxi-lNwsnmXQI?usp=sharing)**
+the **model weights** for the discriminator and the generator, made available [here](https://drive.google.com/drive/folders/1BL3bMgfbSbYABHZuQpvDxi-lNwsnmXQI?usp=sharing)*
  
->- *The **model weights** for the baseline LSTM are made available [here](https://drive.google.com/drive/folders/1Uf9yu_7YyADhAjWEQe_pRKhRAjRuphTl?usp=sharing)
+>- *The **model weights** for the baseline LSTM are made available [here](https://drive.google.com/drive/folders/1Uf9yu_7YyADhAjWEQe_pRKhRAjRuphTl?usp=sharing)*
 
 
 ### 2) Pre-training
