@@ -1,0 +1,19 @@
+
+# Results obtained with baseline LSTM model
+  
+  BLEU    BLEU NLTK    chrF++    TER
+------  -----------  --------  -----
+ 10.76         0.11      0.16   1.15
+ 
+
+ 
+ # LSTM Model params:
+ 
+ A one layer LSTM encoder-decoder with:
+ - units = 1024
+ - embedding_dim = 256
+ - batch_size = 32
+ 
+ 
+ 
+ # Architecture previously succesful in tasks like Neural Machine Translation : https://www.tensorflow.org/tutorials/text/nmt_with_attention
