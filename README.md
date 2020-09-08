@@ -85,8 +85,8 @@ To evaluate the generated predictions, you may use [this](https://github.com/Web
 
 #### Evaluation Results:
 
->                       Score       |    **BLEU    BLEU NLTK   chrF++    TER**
->                                           ------  -----------  -------  -----
+>                       Score       |      BLEU    BLEU NLTK   chrF++    TER 
+>                                        ------  -----------  -------  -----
 >                       LSTM        |     10.76      0.11       0.16     1.15
 >                       Transformer |     27.39      0.27       0.46     0.69
 
