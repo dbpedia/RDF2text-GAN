@@ -17,3 +17,5 @@
  
  
  # Architecture previously succesful in tasks like Neural Machine Translation : https://www.tensorflow.org/tutorials/text/nmt_with_attention
+ 
+ # Evaluation scores obtained using evaluation scripts at :  https://github.com/WebNLG/GenerationEval
