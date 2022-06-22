@@ -1,5 +1,5 @@
 
-numpy==1.16.3
+numpy==1.22.0
 tensorflow==2.2.0
 keras==2.1.0
 tensorflow_datasets==3.1.0
